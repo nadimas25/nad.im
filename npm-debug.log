@@ -1,0 +1,1330 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'gulp', '--save-dev' ]
+2 info using npm@1.4.13
+3 info using node@v0.10.28
+4 verbose node symlink /usr/local/bin/node
+5 verbose cache add [ 'gulp', null ]
+6 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'gulp',
+7 verbose parsed url   path: 'gulp',
+7 verbose parsed url   href: 'gulp' }
+8 silly lockFile 9750c68d-gulp gulp
+9 verbose lock gulp /Users/MackenzieDavidson/.npm/9750c68d-gulp.lock
+10 silly lockFile 9750c68d-gulp gulp
+11 silly lockFile 9750c68d-gulp gulp
+12 verbose addNamed [ 'gulp', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 72f4391e-gulp gulp@
+15 verbose lock gulp@ /Users/MackenzieDavidson/.npm/72f4391e-gulp.lock
+16 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+17 verbose url raw gulp
+18 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+19 verbose url resolved https://registry.npmjs.org/gulp
+20 info trying registry request attempt 1 at 00:07:09
+21 verbose etag "61P3N9YEZIGQBWG2EH8UM5Q4Y"
+22 http GET https://registry.npmjs.org/gulp
+23 http 304 https://registry.npmjs.org/gulp
+24 silly registry.get cb [ 304,
+24 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:10 GMT',
+24 silly registry.get     server: 'Apache',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:07:10 GMT',
+24 silly registry.get     'cache-control': 'max-age=60',
+24 silly registry.get     etag: '"61P3N9YEZIGQBWG2EH8UM5Q4Y"',
+24 silly registry.get     age: '54',
+24 silly registry.get     'x-served-by': 'cache-atl6232-ATL',
+24 silly registry.get     'x-cache': 'HIT',
+24 silly registry.get     'x-cache-hits': '1',
+24 silly registry.get     'x-timer': 'S1429589230.337933,VS0,VE1',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'content-length': '0',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 verbose etag gulp from cache
+26 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+27 silly addNameRange versions [ 'gulp',
+27 silly addNameRange   [ '0.0.1',
+27 silly addNameRange     '0.0.2',
+27 silly addNameRange     '0.0.3',
+27 silly addNameRange     '0.0.4',
+27 silly addNameRange     '0.0.5',
+27 silly addNameRange     '0.0.7',
+27 silly addNameRange     '0.0.8',
+27 silly addNameRange     '0.0.9',
+27 silly addNameRange     '0.1.0',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '1.0.0',
+27 silly addNameRange     '1.1.0',
+27 silly addNameRange     '1.2.0',
+27 silly addNameRange     '1.2.1',
+27 silly addNameRange     '2.0.0',
+27 silly addNameRange     '2.0.1',
+27 silly addNameRange     '2.1.0',
+27 silly addNameRange     '2.2.0',
+27 silly addNameRange     '2.3.0',
+27 silly addNameRange     '2.4.0',
+27 silly addNameRange     '2.4.1',
+27 silly addNameRange     '2.6.0',
+27 silly addNameRange     '2.6.1',
+27 silly addNameRange     '2.7.0',
+27 silly addNameRange     '3.0.0',
+27 silly addNameRange     '3.1.1',
+27 silly addNameRange     '3.1.2',
+27 silly addNameRange     '3.1.3',
+27 silly addNameRange     '3.1.4',
+27 silly addNameRange     '3.2.0',
+27 silly addNameRange     '3.2.1',
+27 silly addNameRange     '3.2.2',
+27 silly addNameRange     '3.2.3',
+27 silly addNameRange     '3.2.4',
+27 silly addNameRange     '3.2.5',
+27 silly addNameRange     '3.3.0',
+27 silly addNameRange     '3.3.1',
+27 silly addNameRange     '3.3.2',
+27 silly addNameRange     '3.3.4',
+27 silly addNameRange     '3.4.0',
+27 silly addNameRange     '3.5.0',
+27 silly addNameRange     '3.5.1',
+27 silly addNameRange     '3.5.2',
+27 silly addNameRange     '3.5.5',
+27 silly addNameRange     '3.5.6',
+27 silly addNameRange     '3.6.0',
+27 silly addNameRange     '3.6.1',
+27 silly addNameRange     '3.6.2',
+27 silly addNameRange     '3.7.0',
+27 silly addNameRange     '3.8.0',
+27 silly addNameRange     '3.8.1',
+27 silly addNameRange     '3.8.2',
+27 silly addNameRange     '3.8.3',
+27 silly addNameRange     '3.8.4',
+27 silly addNameRange     '3.8.5',
+27 silly addNameRange     '3.8.6',
+27 silly addNameRange     '3.8.7',
+27 silly addNameRange     '3.8.8',
+27 silly addNameRange     '3.8.9',
+27 silly addNameRange     '3.8.10',
+27 silly addNameRange     '3.8.11' ] ]
+28 verbose addNamed [ 'gulp', '3.8.11' ]
+29 verbose addNamed [ '3.8.11', '3.8.11' ]
+30 silly lockFile 3d31ec08-gulp-3-8-11 gulp@3.8.11
+31 verbose lock gulp@3.8.11 /Users/MackenzieDavidson/.npm/3d31ec08-gulp-3-8-11.lock
+32 silly lockFile 3d31ec08-gulp-3-8-11 gulp@3.8.11
+33 silly lockFile 3d31ec08-gulp-3-8-11 gulp@3.8.11
+34 silly lockFile 72f4391e-gulp gulp@
+35 silly lockFile 72f4391e-gulp gulp@
+36 silly resolved [ { name: 'gulp',
+36 silly resolved     description: 'The streaming build system',
+36 silly resolved     version: '3.8.11',
+36 silly resolved     homepage: 'http://gulpjs.com',
+36 silly resolved     repository: { type: 'git', url: 'https://github.com/gulpjs/gulp' },
+36 silly resolved     author:
+36 silly resolved      { name: 'Fractal',
+36 silly resolved        email: 'contact@wearefractal.com',
+36 silly resolved        url: 'http://wearefractal.com/' },
+36 silly resolved     tags: [ 'build', 'stream', 'system', 'make', 'tool', 'asset', 'pipeline' ],
+36 silly resolved     files: [ 'index.js', 'lib', 'bin', 'completion' ],
+36 silly resolved     bin: { gulp: './bin/gulp.js' },
+36 silly resolved     man: [ 'gulp.1' ],
+36 silly resolved     dependencies:
+36 silly resolved      { archy: '^1.0.0',
+36 silly resolved        chalk: '^0.5.0',
+36 silly resolved        deprecated: '^0.0.1',
+36 silly resolved        'gulp-util': '^3.0.0',
+36 silly resolved        interpret: '^0.3.2',
+36 silly resolved        liftoff: '^2.0.1',
+36 silly resolved        minimist: '^1.1.0',
+36 silly resolved        orchestrator: '^0.3.0',
+36 silly resolved        'pretty-hrtime': '^0.2.0',
+36 silly resolved        semver: '^4.1.0',
+36 silly resolved        tildify: '^1.0.0',
+36 silly resolved        v8flags: '^2.0.2',
+36 silly resolved        'vinyl-fs': '^0.3.0' },
+36 silly resolved     devDependencies:
+36 silly resolved      { coveralls: '^2.7.0',
+36 silly resolved        'graceful-fs': '^3.0.0',
+36 silly resolved        istanbul: '^0.3.0',
+36 silly resolved        jshint: '^2.5.0',
+36 silly resolved        'jshint-stylish': '^1.0.0',
+36 silly resolved        'marked-man': '^0.1.3',
+36 silly resolved        mkdirp: '^0.5.0',
+36 silly resolved        mocha: '^2.0.1',
+36 silly resolved        'mocha-lcov-reporter': '^0.0.1',
+36 silly resolved        q: '^1.0.0',
+36 silly resolved        rimraf: '^2.2.5',
+36 silly resolved        should: '^4.0.0' },
+36 silly resolved     scripts:
+36 silly resolved      { prepublish: 'marked-man --name gulp docs/CLI.md > gulp.1',
+36 silly resolved        lint: 'jshint lib bin index.js --reporter node_modules/jshint-stylish/stylish.js --exclude node_modules',
+36 silly resolved        test: 'npm run-script lint && mocha --reporter spec',
+36 silly resolved        coveralls: 'istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+36 silly resolved     engineStrict: true,
+36 silly resolved     engines: { node: '>= 0.9' },
+36 silly resolved     licenses: [ [Object] ],
+36 silly resolved     gitHead: '84df40b0faabc2b61d576154fd1145e2146377ca',
+36 silly resolved     bugs: { url: 'https://github.com/gulpjs/gulp/issues' },
+36 silly resolved     _id: 'gulp@3.8.11',
+36 silly resolved     _shasum: 'd557e0a7283eb4136491969b0497767972f1d28a',
+36 silly resolved     _from: 'gulp@',
+36 silly resolved     _npmVersion: '2.5.1',
+36 silly resolved     _nodeVersion: '0.12.0',
+36 silly resolved     _npmUser: { name: 'phated', email: 'blaine@iceddev.com' },
+36 silly resolved     maintainers: [ [Object], [Object] ],
+36 silly resolved     dist:
+36 silly resolved      { shasum: 'd557e0a7283eb4136491969b0497767972f1d28a',
+36 silly resolved        tarball: 'http://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz' },
+36 silly resolved     directories: {},
+36 silly resolved     _resolved: 'https://registry.npmjs.org/gulp/-/gulp-3.8.11.tgz',
+36 silly resolved     readme: 'ERROR: No README data found!' } ]
+37 info install gulp@3.8.11 into /Users/MackenzieDavidson
+38 info installOne gulp@3.8.11
+39 info /Users/MackenzieDavidson/node_modules/gulp unbuild
+40 verbose tar unpack /Users/MackenzieDavidson/.npm/gulp/3.8.11/package.tgz
+41 silly lockFile a3610a25-kenzieDavidson-node-modules-gulp tar:///Users/MackenzieDavidson/node_modules/gulp
+42 verbose lock tar:///Users/MackenzieDavidson/node_modules/gulp /Users/MackenzieDavidson/.npm/a3610a25-kenzieDavidson-node-modules-gulp.lock
+43 silly lockFile 3e4a10e4-dson-npm-gulp-3-8-11-package-tgz tar:///Users/MackenzieDavidson/.npm/gulp/3.8.11/package.tgz
+44 verbose lock tar:///Users/MackenzieDavidson/.npm/gulp/3.8.11/package.tgz /Users/MackenzieDavidson/.npm/3e4a10e4-dson-npm-gulp-3-8-11-package-tgz.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry package.json
+47 silly gunzTarPerm extractEntry README.md
+48 silly gunzTarPerm extractEntry LICENSE
+49 silly gunzTarPerm extractEntry index.js
+50 silly gunzTarPerm extractEntry bin/gulp.js
+51 silly gunzTarPerm extractEntry completion/README.md
+52 silly gunzTarPerm extractEntry completion/bash
+53 silly gunzTarPerm extractEntry completion/fish
+54 silly gunzTarPerm extractEntry completion/powershell
+55 silly gunzTarPerm extractEntry completion/zsh
+56 silly gunzTarPerm extractEntry lib/completion.js
+57 silly gunzTarPerm extractEntry lib/taskTree.js
+58 silly gunzTarPerm extractEntry CHANGELOG.md
+59 silly lockFile a3610a25-kenzieDavidson-node-modules-gulp tar:///Users/MackenzieDavidson/node_modules/gulp
+60 silly lockFile a3610a25-kenzieDavidson-node-modules-gulp tar:///Users/MackenzieDavidson/node_modules/gulp
+61 silly lockFile 3e4a10e4-dson-npm-gulp-3-8-11-package-tgz tar:///Users/MackenzieDavidson/.npm/gulp/3.8.11/package.tgz
+62 silly lockFile 3e4a10e4-dson-npm-gulp-3-8-11-package-tgz tar:///Users/MackenzieDavidson/.npm/gulp/3.8.11/package.tgz
+63 info preinstall gulp@3.8.11
+64 verbose readDependencies using package.json deps
+65 verbose readDependencies using package.json deps
+66 verbose cache add [ 'deprecated@^0.0.1', null ]
+67 verbose cache add name=undefined spec="deprecated@^0.0.1" args=["deprecated@^0.0.1",null]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: 'deprecated@^0.0.1',
+68 verbose parsed url   path: 'deprecated@^0.0.1',
+68 verbose parsed url   href: 'deprecated@^0.0.1' }
+69 verbose cache add [ 'archy@^1.0.0', null ]
+70 verbose cache add name=undefined spec="archy@^1.0.0" args=["archy@^1.0.0",null]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: 'archy@^1.0.0',
+71 verbose parsed url   path: 'archy@^1.0.0',
+71 verbose parsed url   href: 'archy@^1.0.0' }
+72 verbose cache add [ 'chalk@^0.5.0', null ]
+73 verbose cache add name=undefined spec="chalk@^0.5.0" args=["chalk@^0.5.0",null]
+74 verbose parsed url { protocol: null,
+74 verbose parsed url   slashes: null,
+74 verbose parsed url   auth: null,
+74 verbose parsed url   host: null,
+74 verbose parsed url   port: null,
+74 verbose parsed url   hostname: null,
+74 verbose parsed url   hash: null,
+74 verbose parsed url   search: null,
+74 verbose parsed url   query: null,
+74 verbose parsed url   pathname: 'chalk@^0.5.0',
+74 verbose parsed url   path: 'chalk@^0.5.0',
+74 verbose parsed url   href: 'chalk@^0.5.0' }
+75 verbose cache add name="deprecated" spec="^0.0.1" args=["deprecated","^0.0.1"]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: '^0.0.1',
+76 verbose parsed url   path: '^0.0.1',
+76 verbose parsed url   href: '^0.0.1' }
+77 verbose addNamed [ 'deprecated', '^0.0.1' ]
+78 verbose addNamed [ null, '=0.0.1' ]
+79 silly lockFile 0e32a569-deprecated-0-0-1 deprecated@^0.0.1
+80 verbose lock deprecated@^0.0.1 /Users/MackenzieDavidson/.npm/0e32a569-deprecated-0-0-1.lock
+81 verbose cache add name="archy" spec="^1.0.0" args=["archy","^1.0.0"]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: '^1.0.0',
+82 verbose parsed url   path: '^1.0.0',
+82 verbose parsed url   href: '^1.0.0' }
+83 verbose addNamed [ 'archy', '^1.0.0' ]
+84 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+85 silly lockFile 91d41a90-archy-1-0-0 archy@^1.0.0
+86 verbose lock archy@^1.0.0 /Users/MackenzieDavidson/.npm/91d41a90-archy-1-0-0.lock
+87 verbose cache add [ 'gulp-util@^3.0.0', null ]
+88 verbose cache add name=undefined spec="gulp-util@^3.0.0" args=["gulp-util@^3.0.0",null]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: 'gulp-util@^3.0.0',
+89 verbose parsed url   path: 'gulp-util@^3.0.0',
+89 verbose parsed url   href: 'gulp-util@^3.0.0' }
+90 verbose cache add [ 'interpret@^0.3.2', null ]
+91 verbose cache add name=undefined spec="interpret@^0.3.2" args=["interpret@^0.3.2",null]
+92 verbose parsed url { protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: 'interpret@^0.3.2',
+92 verbose parsed url   path: 'interpret@^0.3.2',
+92 verbose parsed url   href: 'interpret@^0.3.2' }
+93 verbose cache add name="chalk" spec="^0.5.0" args=["chalk","^0.5.0"]
+94 verbose parsed url { protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: '^0.5.0',
+94 verbose parsed url   path: '^0.5.0',
+94 verbose parsed url   href: '^0.5.0' }
+95 verbose addNamed [ 'chalk', '^0.5.0' ]
+96 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+97 silly lockFile c513ee84-chalk-0-5-0 chalk@^0.5.0
+98 verbose lock chalk@^0.5.0 /Users/MackenzieDavidson/.npm/c513ee84-chalk-0-5-0.lock
+99 verbose cache add name="gulp-util" spec="^3.0.0" args=["gulp-util","^3.0.0"]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: '^3.0.0',
+100 verbose parsed url   path: '^3.0.0',
+100 verbose parsed url   href: '^3.0.0' }
+101 verbose addNamed [ 'gulp-util', '^3.0.0' ]
+102 verbose addNamed [ null, '>=3.0.0-0 <4.0.0-0' ]
+103 silly lockFile dfa9a863-gulp-util-3-0-0 gulp-util@^3.0.0
+104 verbose lock gulp-util@^3.0.0 /Users/MackenzieDavidson/.npm/dfa9a863-gulp-util-3-0-0.lock
+105 verbose cache add name="interpret" spec="^0.3.2" args=["interpret","^0.3.2"]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: '^0.3.2',
+106 verbose parsed url   path: '^0.3.2',
+106 verbose parsed url   href: '^0.3.2' }
+107 verbose addNamed [ 'interpret', '^0.3.2' ]
+108 verbose addNamed [ null, '>=0.3.2-0 <0.4.0-0' ]
+109 silly lockFile e5ecc112-interpret-0-3-2 interpret@^0.3.2
+110 verbose lock interpret@^0.3.2 /Users/MackenzieDavidson/.npm/e5ecc112-interpret-0-3-2.lock
+111 verbose cache add [ 'liftoff@^2.0.1', null ]
+112 verbose cache add name=undefined spec="liftoff@^2.0.1" args=["liftoff@^2.0.1",null]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: 'liftoff@^2.0.1',
+113 verbose parsed url   path: 'liftoff@^2.0.1',
+113 verbose parsed url   href: 'liftoff@^2.0.1' }
+114 verbose cache add [ 'minimist@^1.1.0', null ]
+115 verbose cache add name=undefined spec="minimist@^1.1.0" args=["minimist@^1.1.0",null]
+116 verbose parsed url { protocol: null,
+116 verbose parsed url   slashes: null,
+116 verbose parsed url   auth: null,
+116 verbose parsed url   host: null,
+116 verbose parsed url   port: null,
+116 verbose parsed url   hostname: null,
+116 verbose parsed url   hash: null,
+116 verbose parsed url   search: null,
+116 verbose parsed url   query: null,
+116 verbose parsed url   pathname: 'minimist@^1.1.0',
+116 verbose parsed url   path: 'minimist@^1.1.0',
+116 verbose parsed url   href: 'minimist@^1.1.0' }
+117 silly addNameRange { name: 'deprecated', range: '=0.0.1', hasData: false }
+118 silly addNameRange { name: 'archy', range: '>=1.0.0-0 <2.0.0-0', hasData: false }
+119 verbose cache add name="liftoff" spec="^2.0.1" args=["liftoff","^2.0.1"]
+120 verbose parsed url { protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: '^2.0.1',
+120 verbose parsed url   path: '^2.0.1',
+120 verbose parsed url   href: '^2.0.1' }
+121 verbose addNamed [ 'liftoff', '^2.0.1' ]
+122 verbose addNamed [ null, '>=2.0.1-0 <3.0.0-0' ]
+123 silly lockFile b7163fe4-liftoff-2-0-1 liftoff@^2.0.1
+124 verbose lock liftoff@^2.0.1 /Users/MackenzieDavidson/.npm/b7163fe4-liftoff-2-0-1.lock
+125 verbose cache add name="minimist" spec="^1.1.0" args=["minimist","^1.1.0"]
+126 verbose parsed url { protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: '^1.1.0',
+126 verbose parsed url   path: '^1.1.0',
+126 verbose parsed url   href: '^1.1.0' }
+127 verbose addNamed [ 'minimist', '^1.1.0' ]
+128 verbose addNamed [ null, '>=1.1.0-0 <2.0.0-0' ]
+129 silly lockFile b7cda548-minimist-1-1-0 minimist@^1.1.0
+130 verbose lock minimist@^1.1.0 /Users/MackenzieDavidson/.npm/b7cda548-minimist-1-1-0.lock
+131 verbose cache add [ 'orchestrator@^0.3.0', null ]
+132 verbose cache add name=undefined spec="orchestrator@^0.3.0" args=["orchestrator@^0.3.0",null]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: 'orchestrator@^0.3.0',
+133 verbose parsed url   path: 'orchestrator@^0.3.0',
+133 verbose parsed url   href: 'orchestrator@^0.3.0' }
+134 verbose cache add [ 'pretty-hrtime@^0.2.0', null ]
+135 verbose cache add name=undefined spec="pretty-hrtime@^0.2.0" args=["pretty-hrtime@^0.2.0",null]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: 'pretty-hrtime@^0.2.0',
+136 verbose parsed url   path: 'pretty-hrtime@^0.2.0',
+136 verbose parsed url   href: 'pretty-hrtime@^0.2.0' }
+137 verbose cache add [ 'tildify@^1.0.0', null ]
+138 verbose cache add name=undefined spec="tildify@^1.0.0" args=["tildify@^1.0.0",null]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'tildify@^1.0.0',
+139 verbose parsed url   path: 'tildify@^1.0.0',
+139 verbose parsed url   href: 'tildify@^1.0.0' }
+140 verbose cache add [ 'semver@^4.1.0', null ]
+141 verbose cache add name=undefined spec="semver@^4.1.0" args=["semver@^4.1.0",null]
+142 verbose parsed url { protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: 'semver@^4.1.0',
+142 verbose parsed url   path: 'semver@^4.1.0',
+142 verbose parsed url   href: 'semver@^4.1.0' }
+143 verbose cache add [ 'v8flags@^2.0.2', null ]
+144 verbose cache add name=undefined spec="v8flags@^2.0.2" args=["v8flags@^2.0.2",null]
+145 verbose parsed url { protocol: null,
+145 verbose parsed url   slashes: null,
+145 verbose parsed url   auth: null,
+145 verbose parsed url   host: null,
+145 verbose parsed url   port: null,
+145 verbose parsed url   hostname: null,
+145 verbose parsed url   hash: null,
+145 verbose parsed url   search: null,
+145 verbose parsed url   query: null,
+145 verbose parsed url   pathname: 'v8flags@^2.0.2',
+145 verbose parsed url   path: 'v8flags@^2.0.2',
+145 verbose parsed url   href: 'v8flags@^2.0.2' }
+146 verbose cache add [ 'vinyl-fs@^0.3.0', null ]
+147 verbose cache add name=undefined spec="vinyl-fs@^0.3.0" args=["vinyl-fs@^0.3.0",null]
+148 verbose parsed url { protocol: null,
+148 verbose parsed url   slashes: null,
+148 verbose parsed url   auth: null,
+148 verbose parsed url   host: null,
+148 verbose parsed url   port: null,
+148 verbose parsed url   hostname: null,
+148 verbose parsed url   hash: null,
+148 verbose parsed url   search: null,
+148 verbose parsed url   query: null,
+148 verbose parsed url   pathname: 'vinyl-fs@^0.3.0',
+148 verbose parsed url   path: 'vinyl-fs@^0.3.0',
+148 verbose parsed url   href: 'vinyl-fs@^0.3.0' }
+149 verbose cache add name="orchestrator" spec="^0.3.0" args=["orchestrator","^0.3.0"]
+150 verbose parsed url { protocol: null,
+150 verbose parsed url   slashes: null,
+150 verbose parsed url   auth: null,
+150 verbose parsed url   host: null,
+150 verbose parsed url   port: null,
+150 verbose parsed url   hostname: null,
+150 verbose parsed url   hash: null,
+150 verbose parsed url   search: null,
+150 verbose parsed url   query: null,
+150 verbose parsed url   pathname: '^0.3.0',
+150 verbose parsed url   path: '^0.3.0',
+150 verbose parsed url   href: '^0.3.0' }
+151 verbose addNamed [ 'orchestrator', '^0.3.0' ]
+152 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+153 silly lockFile 74d9c599-orchestrator-0-3-0 orchestrator@^0.3.0
+154 verbose lock orchestrator@^0.3.0 /Users/MackenzieDavidson/.npm/74d9c599-orchestrator-0-3-0.lock
+155 verbose cache add name="pretty-hrtime" spec="^0.2.0" args=["pretty-hrtime","^0.2.0"]
+156 verbose parsed url { protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: '^0.2.0',
+156 verbose parsed url   path: '^0.2.0',
+156 verbose parsed url   href: '^0.2.0' }
+157 verbose addNamed [ 'pretty-hrtime', '^0.2.0' ]
+158 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+159 silly lockFile 3ac7556f-pretty-hrtime-0-2-0 pretty-hrtime@^0.2.0
+160 verbose lock pretty-hrtime@^0.2.0 /Users/MackenzieDavidson/.npm/3ac7556f-pretty-hrtime-0-2-0.lock
+161 verbose cache add name="tildify" spec="^1.0.0" args=["tildify","^1.0.0"]
+162 verbose parsed url { protocol: null,
+162 verbose parsed url   slashes: null,
+162 verbose parsed url   auth: null,
+162 verbose parsed url   host: null,
+162 verbose parsed url   port: null,
+162 verbose parsed url   hostname: null,
+162 verbose parsed url   hash: null,
+162 verbose parsed url   search: null,
+162 verbose parsed url   query: null,
+162 verbose parsed url   pathname: '^1.0.0',
+162 verbose parsed url   path: '^1.0.0',
+162 verbose parsed url   href: '^1.0.0' }
+163 verbose addNamed [ 'tildify', '^1.0.0' ]
+164 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+165 silly lockFile b323af2b-tildify-1-0-0 tildify@^1.0.0
+166 verbose lock tildify@^1.0.0 /Users/MackenzieDavidson/.npm/b323af2b-tildify-1-0-0.lock
+167 verbose cache add name="semver" spec="^4.1.0" args=["semver","^4.1.0"]
+168 verbose parsed url { protocol: null,
+168 verbose parsed url   slashes: null,
+168 verbose parsed url   auth: null,
+168 verbose parsed url   host: null,
+168 verbose parsed url   port: null,
+168 verbose parsed url   hostname: null,
+168 verbose parsed url   hash: null,
+168 verbose parsed url   search: null,
+168 verbose parsed url   query: null,
+168 verbose parsed url   pathname: '^4.1.0',
+168 verbose parsed url   path: '^4.1.0',
+168 verbose parsed url   href: '^4.1.0' }
+169 verbose addNamed [ 'semver', '^4.1.0' ]
+170 verbose addNamed [ null, '>=4.1.0-0 <5.0.0-0' ]
+171 silly lockFile 3aa770ad-semver-4-1-0 semver@^4.1.0
+172 verbose lock semver@^4.1.0 /Users/MackenzieDavidson/.npm/3aa770ad-semver-4-1-0.lock
+173 verbose cache add name="v8flags" spec="^2.0.2" args=["v8flags","^2.0.2"]
+174 verbose parsed url { protocol: null,
+174 verbose parsed url   slashes: null,
+174 verbose parsed url   auth: null,
+174 verbose parsed url   host: null,
+174 verbose parsed url   port: null,
+174 verbose parsed url   hostname: null,
+174 verbose parsed url   hash: null,
+174 verbose parsed url   search: null,
+174 verbose parsed url   query: null,
+174 verbose parsed url   pathname: '^2.0.2',
+174 verbose parsed url   path: '^2.0.2',
+174 verbose parsed url   href: '^2.0.2' }
+175 verbose addNamed [ 'v8flags', '^2.0.2' ]
+176 verbose addNamed [ null, '>=2.0.2-0 <3.0.0-0' ]
+177 silly lockFile f57003f9-v8flags-2-0-2 v8flags@^2.0.2
+178 verbose lock v8flags@^2.0.2 /Users/MackenzieDavidson/.npm/f57003f9-v8flags-2-0-2.lock
+179 silly addNameRange { name: 'gulp-util',
+179 silly addNameRange   range: '>=3.0.0-0 <4.0.0-0',
+179 silly addNameRange   hasData: false }
+180 verbose cache add name="vinyl-fs" spec="^0.3.0" args=["vinyl-fs","^0.3.0"]
+181 verbose parsed url { protocol: null,
+181 verbose parsed url   slashes: null,
+181 verbose parsed url   auth: null,
+181 verbose parsed url   host: null,
+181 verbose parsed url   port: null,
+181 verbose parsed url   hostname: null,
+181 verbose parsed url   hash: null,
+181 verbose parsed url   search: null,
+181 verbose parsed url   query: null,
+181 verbose parsed url   pathname: '^0.3.0',
+181 verbose parsed url   path: '^0.3.0',
+181 verbose parsed url   href: '^0.3.0' }
+182 verbose addNamed [ 'vinyl-fs', '^0.3.0' ]
+183 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+184 silly lockFile f9e5bbec-vinyl-fs-0-3-0 vinyl-fs@^0.3.0
+185 verbose lock vinyl-fs@^0.3.0 /Users/MackenzieDavidson/.npm/f9e5bbec-vinyl-fs-0-3-0.lock
+186 silly addNameRange { name: 'liftoff', range: '>=2.0.1-0 <3.0.0-0', hasData: false }
+187 silly addNameRange { name: 'chalk', range: '>=0.5.0-0 <0.6.0-0', hasData: false }
+188 silly addNameRange { name: 'interpret',
+188 silly addNameRange   range: '>=0.3.2-0 <0.4.0-0',
+188 silly addNameRange   hasData: false }
+189 silly addNameRange { name: 'minimist', range: '>=1.1.0-0 <2.0.0-0', hasData: false }
+190 silly addNameRange { name: 'orchestrator',
+190 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+190 silly addNameRange   hasData: false }
+191 silly addNameRange { name: 'pretty-hrtime',
+191 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+191 silly addNameRange   hasData: false }
+192 silly addNameRange { name: 'tildify', range: '>=1.0.0-0 <2.0.0-0', hasData: false }
+193 silly addNameRange { name: 'semver', range: '>=4.1.0-0 <5.0.0-0', hasData: false }
+194 silly addNameRange { name: 'vinyl-fs', range: '>=0.3.0-0 <0.4.0-0', hasData: false }
+195 silly addNameRange { name: 'v8flags', range: '>=2.0.2-0 <3.0.0-0', hasData: false }
+196 verbose url raw deprecated
+197 verbose url resolving [ 'https://registry.npmjs.org/', './deprecated' ]
+198 verbose url resolved https://registry.npmjs.org/deprecated
+199 info trying registry request attempt 1 at 00:07:10
+200 verbose etag "1GVG5ZB7NCCK74T9YCIN80C42"
+201 http GET https://registry.npmjs.org/deprecated
+202 verbose url raw archy
+203 verbose url resolving [ 'https://registry.npmjs.org/', './archy' ]
+204 verbose url resolved https://registry.npmjs.org/archy
+205 info trying registry request attempt 1 at 00:07:10
+206 verbose etag "D7HMYH6YSGX3VN6DV6CTUIUSI"
+207 http GET https://registry.npmjs.org/archy
+208 verbose url raw liftoff
+209 verbose url resolving [ 'https://registry.npmjs.org/', './liftoff' ]
+210 verbose url resolved https://registry.npmjs.org/liftoff
+211 info trying registry request attempt 1 at 00:07:10
+212 verbose etag "BVXI0QBAFYCADTYNIT65MTPWM"
+213 http GET https://registry.npmjs.org/liftoff
+214 verbose url raw chalk
+215 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+216 verbose url resolved https://registry.npmjs.org/chalk
+217 info trying registry request attempt 1 at 00:07:10
+218 verbose etag "ESFACXBKHRMYG53XP0PKJEAGJ"
+219 http GET https://registry.npmjs.org/chalk
+220 verbose url raw minimist
+221 verbose url resolving [ 'https://registry.npmjs.org/', './minimist' ]
+222 verbose url resolved https://registry.npmjs.org/minimist
+223 info trying registry request attempt 1 at 00:07:10
+224 verbose etag "1HOMS1JWWCNZ6F8VT24F025H0"
+225 http GET https://registry.npmjs.org/minimist
+226 verbose url raw interpret
+227 verbose url resolving [ 'https://registry.npmjs.org/', './interpret' ]
+228 verbose url resolved https://registry.npmjs.org/interpret
+229 info trying registry request attempt 1 at 00:07:10
+230 verbose etag "O3N6N2PE0PC93GBDQJUPRHGX"
+231 http GET https://registry.npmjs.org/interpret
+232 verbose url raw pretty-hrtime
+233 verbose url resolving [ 'https://registry.npmjs.org/', './pretty-hrtime' ]
+234 verbose url resolved https://registry.npmjs.org/pretty-hrtime
+235 info trying registry request attempt 1 at 00:07:10
+236 verbose etag "CDAWDM9JK8XSCUNRF2MSAN7EA"
+237 http GET https://registry.npmjs.org/pretty-hrtime
+238 verbose url raw orchestrator
+239 verbose url resolving [ 'https://registry.npmjs.org/', './orchestrator' ]
+240 verbose url resolved https://registry.npmjs.org/orchestrator
+241 info trying registry request attempt 1 at 00:07:10
+242 verbose etag "6Q4NOMKS7Y34UC4FC276MULXH"
+243 http GET https://registry.npmjs.org/orchestrator
+244 verbose url raw tildify
+245 verbose url resolving [ 'https://registry.npmjs.org/', './tildify' ]
+246 verbose url resolved https://registry.npmjs.org/tildify
+247 info trying registry request attempt 1 at 00:07:10
+248 verbose etag "IE1XQ5JU4QFYAX988ENENRDB"
+249 http GET https://registry.npmjs.org/tildify
+250 verbose url raw gulp-util
+251 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-util' ]
+252 verbose url resolved https://registry.npmjs.org/gulp-util
+253 info trying registry request attempt 1 at 00:07:10
+254 verbose etag "1F3S7YRGC9E1JYDHP642F3Y4Y"
+255 http GET https://registry.npmjs.org/gulp-util
+256 verbose url raw vinyl-fs
+257 verbose url resolving [ 'https://registry.npmjs.org/', './vinyl-fs' ]
+258 verbose url resolved https://registry.npmjs.org/vinyl-fs
+259 info trying registry request attempt 1 at 00:07:10
+260 verbose etag "19EUREM5ORB2L4UTLSKIWFOYW"
+261 http GET https://registry.npmjs.org/vinyl-fs
+262 verbose url raw semver
+263 verbose url resolving [ 'https://registry.npmjs.org/', './semver' ]
+264 verbose url resolved https://registry.npmjs.org/semver
+265 info trying registry request attempt 1 at 00:07:10
+266 verbose etag "125FZXTOFC7EY5JKNK4W7EVEO"
+267 http GET https://registry.npmjs.org/semver
+268 verbose url raw v8flags
+269 verbose url resolving [ 'https://registry.npmjs.org/', './v8flags' ]
+270 verbose url resolved https://registry.npmjs.org/v8flags
+271 info trying registry request attempt 1 at 00:07:10
+272 verbose etag "7N3YCPQA53BYWR2XC8CRO3PKV"
+273 http GET https://registry.npmjs.org/v8flags
+274 http 304 https://registry.npmjs.org/deprecated
+275 silly registry.get cb [ 304,
+275 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:10 GMT',
+275 silly registry.get     server: 'Apache',
+275 silly registry.get     via: '1.1 varnish',
+275 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:07:10 GMT',
+275 silly registry.get     'cache-control': 'max-age=60',
+275 silly registry.get     etag: '"1GVG5ZB7NCCK74T9YCIN80C42"',
+275 silly registry.get     age: '0',
+275 silly registry.get     'x-served-by': 'cache-atl6235-ATL',
+275 silly registry.get     'x-cache': 'HIT',
+275 silly registry.get     'x-cache-hits': '1',
+275 silly registry.get     'x-timer': 'S1429589230.856546,VS0,VE27',
+275 silly registry.get     vary: 'Accept',
+275 silly registry.get     'content-length': '0',
+275 silly registry.get     'keep-alive': 'timeout=10, max=50',
+275 silly registry.get     connection: 'Keep-Alive' } ]
+276 verbose etag deprecated from cache
+277 silly addNameRange number 2 { name: 'deprecated', range: '=0.0.1', hasData: true }
+278 silly addNameRange versions [ 'deprecated', [ '0.0.1' ] ]
+279 verbose addNamed [ 'deprecated', '0.0.1' ]
+280 verbose addNamed [ '0.0.1', '0.0.1' ]
+281 silly lockFile 9bc38d85-deprecated-0-0-1 deprecated@0.0.1
+282 verbose lock deprecated@0.0.1 /Users/MackenzieDavidson/.npm/9bc38d85-deprecated-0-0-1.lock
+283 http 304 https://registry.npmjs.org/chalk
+284 silly registry.get cb [ 304,
+284 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:10 GMT',
+284 silly registry.get     server: 'Apache',
+284 silly registry.get     via: '1.1 varnish',
+284 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:06:44 GMT',
+284 silly registry.get     'cache-control': 'max-age=60',
+284 silly registry.get     etag: '"ESFACXBKHRMYG53XP0PKJEAGJ"',
+284 silly registry.get     age: '40',
+284 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+284 silly registry.get     'x-cache': 'HIT',
+284 silly registry.get     'x-cache-hits': '3',
+284 silly registry.get     'x-timer': 'S1429589230.903867,VS0,VE0',
+284 silly registry.get     vary: 'Accept',
+284 silly registry.get     'content-length': '0',
+284 silly registry.get     'keep-alive': 'timeout=10, max=50',
+284 silly registry.get     connection: 'Keep-Alive' } ]
+285 verbose etag chalk from cache
+286 silly addNameRange number 2 { name: 'chalk', range: '>=0.5.0-0 <0.6.0-0', hasData: true }
+287 silly addNameRange versions [ 'chalk',
+287 silly addNameRange   [ '0.1.0',
+287 silly addNameRange     '0.1.1',
+287 silly addNameRange     '0.2.0',
+287 silly addNameRange     '0.2.1',
+287 silly addNameRange     '0.3.0',
+287 silly addNameRange     '0.4.0',
+287 silly addNameRange     '0.5.0',
+287 silly addNameRange     '0.5.1',
+287 silly addNameRange     '1.0.0' ] ]
+288 verbose addNamed [ 'chalk', '0.5.1' ]
+289 verbose addNamed [ '0.5.1', '0.5.1' ]
+290 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+291 verbose lock chalk@0.5.1 /Users/MackenzieDavidson/.npm/c28973bb-chalk-0-5-1.lock
+292 silly lockFile 9bc38d85-deprecated-0-0-1 deprecated@0.0.1
+293 silly lockFile 9bc38d85-deprecated-0-0-1 deprecated@0.0.1
+294 silly lockFile 0e32a569-deprecated-0-0-1 deprecated@^0.0.1
+295 silly lockFile 0e32a569-deprecated-0-0-1 deprecated@^0.0.1
+296 http 304 https://registry.npmjs.org/minimist
+297 silly registry.get cb [ 304,
+297 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:10 GMT',
+297 silly registry.get     server: 'Apache',
+297 silly registry.get     via: '1.1 varnish',
+297 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:06:34 GMT',
+297 silly registry.get     'cache-control': 'max-age=60',
+297 silly registry.get     etag: '"1HOMS1JWWCNZ6F8VT24F025H0"',
+297 silly registry.get     age: '40',
+297 silly registry.get     'x-served-by': 'cache-atl6225-ATL',
+297 silly registry.get     'x-cache': 'HIT',
+297 silly registry.get     'x-cache-hits': '4',
+297 silly registry.get     'x-timer': 'S1429589230.915806,VS0,VE0',
+297 silly registry.get     vary: 'Accept',
+297 silly registry.get     'content-length': '0',
+297 silly registry.get     'keep-alive': 'timeout=10, max=50',
+297 silly registry.get     connection: 'Keep-Alive' } ]
+298 verbose etag minimist from cache
+299 silly addNameRange number 2 { name: 'minimist', range: '>=1.1.0-0 <2.0.0-0', hasData: true }
+300 silly addNameRange versions [ 'minimist',
+300 silly addNameRange   [ '0.0.0',
+300 silly addNameRange     '0.0.1',
+300 silly addNameRange     '0.0.2',
+300 silly addNameRange     '0.0.3',
+300 silly addNameRange     '0.0.4',
+300 silly addNameRange     '0.0.5',
+300 silly addNameRange     '0.0.6',
+300 silly addNameRange     '0.0.7',
+300 silly addNameRange     '0.0.8',
+300 silly addNameRange     '0.0.9',
+300 silly addNameRange     '0.0.10',
+300 silly addNameRange     '0.1.0',
+300 silly addNameRange     '0.2.0',
+300 silly addNameRange     '1.0.0',
+300 silly addNameRange     '1.1.0',
+300 silly addNameRange     '1.1.1' ] ]
+301 verbose addNamed [ 'minimist', '1.1.1' ]
+302 verbose addNamed [ '1.1.1', '1.1.1' ]
+303 silly lockFile 79a6a221-minimist-1-1-1 minimist@1.1.1
+304 verbose lock minimist@1.1.1 /Users/MackenzieDavidson/.npm/79a6a221-minimist-1-1-1.lock
+305 http 304 https://registry.npmjs.org/liftoff
+306 silly registry.get cb [ 304,
+306 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:10 GMT',
+306 silly registry.get     server: 'Apache',
+306 silly registry.get     via: '1.1 varnish',
+306 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:07:10 GMT',
+306 silly registry.get     'cache-control': 'max-age=60',
+306 silly registry.get     etag: '"BVXI0QBAFYCADTYNIT65MTPWM"',
+306 silly registry.get     age: '0',
+306 silly registry.get     'x-served-by': 'cache-atl6230-ATL',
+306 silly registry.get     'x-cache': 'HIT',
+306 silly registry.get     'x-cache-hits': '1',
+306 silly registry.get     'x-timer': 'S1429589230.905416,VS0,VE27',
+306 silly registry.get     vary: 'Accept',
+306 silly registry.get     'content-length': '0',
+306 silly registry.get     'keep-alive': 'timeout=10, max=50',
+306 silly registry.get     connection: 'Keep-Alive' } ]
+307 verbose etag liftoff from cache
+308 http 304 https://registry.npmjs.org/pretty-hrtime
+309 silly registry.get cb [ 304,
+309 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:10 GMT',
+309 silly registry.get     server: 'Apache',
+309 silly registry.get     via: '1.1 varnish',
+309 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:07:10 GMT',
+309 silly registry.get     'cache-control': 'max-age=60',
+309 silly registry.get     etag: '"CDAWDM9JK8XSCUNRF2MSAN7EA"',
+309 silly registry.get     age: '52',
+309 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+309 silly registry.get     'x-cache': 'HIT',
+309 silly registry.get     'x-cache-hits': '1',
+309 silly registry.get     'x-timer': 'S1429589230.942835,VS0,VE0',
+309 silly registry.get     vary: 'Accept',
+309 silly registry.get     'content-length': '0',
+309 silly registry.get     'keep-alive': 'timeout=10, max=49',
+309 silly registry.get     connection: 'Keep-Alive' } ]
+310 verbose etag pretty-hrtime from cache
+311 http 304 https://registry.npmjs.org/orchestrator
+312 silly registry.get cb [ 304,
+312 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:10 GMT',
+312 silly registry.get     server: 'Apache',
+312 silly registry.get     via: '1.1 varnish',
+312 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:07:10 GMT',
+312 silly registry.get     'cache-control': 'max-age=60',
+312 silly registry.get     etag: '"6Q4NOMKS7Y34UC4FC276MULXH"',
+312 silly registry.get     age: '59',
+312 silly registry.get     'x-served-by': 'cache-atl6225-ATL',
+312 silly registry.get     'x-cache': 'HIT',
+312 silly registry.get     'x-cache-hits': '1',
+312 silly registry.get     'x-timer': 'S1429589230.957739,VS0,VE1',
+312 silly registry.get     vary: 'Accept',
+312 silly registry.get     'content-length': '0',
+312 silly registry.get     'keep-alive': 'timeout=10, max=49',
+312 silly registry.get     connection: 'Keep-Alive' } ]
+313 verbose etag orchestrator from cache
+314 http 304 https://registry.npmjs.org/tildify
+315 silly registry.get cb [ 304,
+315 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:10 GMT',
+315 silly registry.get     server: 'Apache',
+315 silly registry.get     via: '1.1 varnish',
+315 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:07:10 GMT',
+315 silly registry.get     'cache-control': 'max-age=60',
+315 silly registry.get     etag: '"IE1XQ5JU4QFYAX988ENENRDB"',
+315 silly registry.get     age: '59',
+315 silly registry.get     'x-served-by': 'cache-atl6230-ATL',
+315 silly registry.get     'x-cache': 'HIT',
+315 silly registry.get     'x-cache-hits': '1',
+315 silly registry.get     'x-timer': 'S1429589230.974328,VS0,VE1',
+315 silly registry.get     vary: 'Accept',
+315 silly registry.get     'content-length': '0',
+315 silly registry.get     'keep-alive': 'timeout=10, max=49',
+315 silly registry.get     connection: 'Keep-Alive' } ]
+316 verbose etag tildify from cache
+317 http 304 https://registry.npmjs.org/gulp-util
+318 silly registry.get cb [ 304,
+318 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:10 GMT',
+318 silly registry.get     server: 'Apache',
+318 silly registry.get     via: '1.1 varnish',
+318 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:07:10 GMT',
+318 silly registry.get     'cache-control': 'max-age=60',
+318 silly registry.get     etag: '"1F3S7YRGC9E1JYDHP642F3Y4Y"',
+318 silly registry.get     age: '4',
+318 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+318 silly registry.get     'x-cache': 'HIT',
+318 silly registry.get     'x-cache-hits': '1',
+318 silly registry.get     'x-timer': 'S1429589230.983074,VS0,VE0',
+318 silly registry.get     vary: 'Accept',
+318 silly registry.get     'content-length': '0',
+318 silly registry.get     'keep-alive': 'timeout=10, max=48',
+318 silly registry.get     connection: 'Keep-Alive' } ]
+319 verbose etag gulp-util from cache
+320 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+321 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+322 silly lockFile 79a6a221-minimist-1-1-1 minimist@1.1.1
+323 silly lockFile 79a6a221-minimist-1-1-1 minimist@1.1.1
+324 silly lockFile c513ee84-chalk-0-5-0 chalk@^0.5.0
+325 silly lockFile c513ee84-chalk-0-5-0 chalk@^0.5.0
+326 http 304 https://registry.npmjs.org/archy
+327 silly registry.get cb [ 304,
+327 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:10 GMT',
+327 silly registry.get     server: 'Apache',
+327 silly registry.get     via: '1.1 varnish',
+327 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:07:10 GMT',
+327 silly registry.get     'cache-control': 'max-age=60',
+327 silly registry.get     etag: '"D7HMYH6YSGX3VN6DV6CTUIUSI"',
+327 silly registry.get     age: '0',
+327 silly registry.get     'x-served-by': 'cache-atl6228-ATL',
+327 silly registry.get     'x-cache': 'HIT',
+327 silly registry.get     'x-cache-hits': '1',
+327 silly registry.get     'x-timer': 'S1429589230.916793,VS0,VE76',
+327 silly registry.get     vary: 'Accept',
+327 silly registry.get     'content-length': '0',
+327 silly registry.get     'keep-alive': 'timeout=10, max=50',
+327 silly registry.get     connection: 'Keep-Alive' } ]
+328 verbose etag archy from cache
+329 silly lockFile b7cda548-minimist-1-1-0 minimist@^1.1.0
+330 silly lockFile b7cda548-minimist-1-1-0 minimist@^1.1.0
+331 silly addNameRange number 2 { name: 'liftoff', range: '>=2.0.1-0 <3.0.0-0', hasData: true }
+332 silly addNameRange versions [ 'liftoff',
+332 silly addNameRange   [ '0.1.0',
+332 silly addNameRange     '0.2.0',
+332 silly addNameRange     '0.3.0',
+332 silly addNameRange     '0.4.0',
+332 silly addNameRange     '0.5.0',
+332 silly addNameRange     '0.6.0',
+332 silly addNameRange     '0.7.0',
+332 silly addNameRange     '0.8.0',
+332 silly addNameRange     '0.8.1',
+332 silly addNameRange     '0.8.2',
+332 silly addNameRange     '0.8.3',
+332 silly addNameRange     '0.8.4',
+332 silly addNameRange     '0.8.5',
+332 silly addNameRange     '0.8.6',
+332 silly addNameRange     '0.8.7',
+332 silly addNameRange     '0.9.0',
+332 silly addNameRange     '0.9.1',
+332 silly addNameRange     '0.9.2',
+332 silly addNameRange     '0.9.3',
+332 silly addNameRange     '0.9.4',
+332 silly addNameRange     '0.9.5',
+332 silly addNameRange     '0.9.6',
+332 silly addNameRange     '0.9.7',
+332 silly addNameRange     '0.9.8',
+332 silly addNameRange     '0.10.0',
+332 silly addNameRange     '0.11.0',
+332 silly addNameRange     '0.11.1',
+332 silly addNameRange     '0.11.2',
+332 silly addNameRange     '0.11.3',
+332 silly addNameRange     '0.12.0',
+332 silly addNameRange     '0.12.1',
+332 silly addNameRange     '0.13.0',
+332 silly addNameRange     '0.13.1',
+332 silly addNameRange     '0.13.2',
+332 silly addNameRange     '0.13.3',
+332 silly addNameRange     '0.13.5',
+332 silly addNameRange     '0.13.6',
+332 silly addNameRange     '1.0.0',
+332 silly addNameRange     '1.0.2',
+332 silly addNameRange     '1.0.3',
+332 silly addNameRange     '1.0.4',
+332 silly addNameRange     '2.0.0',
+332 silly addNameRange     '2.0.1',
+332 silly addNameRange     '2.0.2',
+332 silly addNameRange     '2.0.3' ] ]
+333 verbose addNamed [ 'liftoff', '2.0.3' ]
+334 verbose addNamed [ '2.0.3', '2.0.3' ]
+335 silly lockFile 62356035-liftoff-2-0-3 liftoff@2.0.3
+336 verbose lock liftoff@2.0.3 /Users/MackenzieDavidson/.npm/62356035-liftoff-2-0-3.lock
+337 verbose about to build /Users/MackenzieDavidson/node_modules/gulp
+338 info /Users/MackenzieDavidson/node_modules/gulp unbuild
+339 info preuninstall gulp@3.8.11
+340 silly addNameRange number 2 { name: 'pretty-hrtime',
+340 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+340 silly addNameRange   hasData: true }
+341 silly addNameRange versions [ 'pretty-hrtime', [ '0.2.0', '0.2.1', '0.2.2', '1.0.0' ] ]
+342 verbose addNamed [ 'pretty-hrtime', '0.2.2' ]
+343 verbose addNamed [ '0.2.2', '0.2.2' ]
+344 silly lockFile f7e8656f-pretty-hrtime-0-2-2 pretty-hrtime@0.2.2
+345 verbose lock pretty-hrtime@0.2.2 /Users/MackenzieDavidson/.npm/f7e8656f-pretty-hrtime-0-2-2.lock
+346 silly addNameRange number 2 { name: 'orchestrator',
+346 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+346 silly addNameRange   hasData: true }
+347 silly addNameRange versions [ 'orchestrator',
+347 silly addNameRange   [ '0.0.2',
+347 silly addNameRange     '0.0.3',
+347 silly addNameRange     '0.0.4',
+347 silly addNameRange     '0.0.5',
+347 silly addNameRange     '0.0.6',
+347 silly addNameRange     '0.0.7',
+347 silly addNameRange     '0.0.8',
+347 silly addNameRange     '0.1.0',
+347 silly addNameRange     '0.2.0',
+347 silly addNameRange     '0.2.1',
+347 silly addNameRange     '0.3.0',
+347 silly addNameRange     '0.3.1',
+347 silly addNameRange     '0.3.3',
+347 silly addNameRange     '0.3.4',
+347 silly addNameRange     '0.3.5',
+347 silly addNameRange     '0.3.6',
+347 silly addNameRange     '0.3.7' ] ]
+348 verbose addNamed [ 'orchestrator', '0.3.7' ]
+349 verbose addNamed [ '0.3.7', '0.3.7' ]
+350 silly lockFile 990cd2ee-orchestrator-0-3-7 orchestrator@0.3.7
+351 verbose lock orchestrator@0.3.7 /Users/MackenzieDavidson/.npm/990cd2ee-orchestrator-0-3-7.lock
+352 info uninstall gulp@3.8.11
+353 silly addNameRange number 2 { name: 'gulp-util', range: '>=3.0.0-0 <4.0.0-0', hasData: true }
+354 silly addNameRange versions [ 'gulp-util',
+354 silly addNameRange   [ '0.0.1',
+354 silly addNameRange     '1.0.0',
+354 silly addNameRange     '1.1.0',
+354 silly addNameRange     '1.1.1',
+354 silly addNameRange     '1.2.0',
+354 silly addNameRange     '1.3.0',
+354 silly addNameRange     '2.0.0',
+354 silly addNameRange     '2.1.1',
+354 silly addNameRange     '2.1.2',
+354 silly addNameRange     '2.1.3',
+354 silly addNameRange     '2.1.4',
+354 silly addNameRange     '2.2.0',
+354 silly addNameRange     '2.2.1',
+354 silly addNameRange     '2.2.2',
+354 silly addNameRange     '2.2.3',
+354 silly addNameRange     '2.2.5',
+354 silly addNameRange     '2.2.6',
+354 silly addNameRange     '2.2.7',
+354 silly addNameRange     '2.2.8',
+354 silly addNameRange     '2.2.9',
+354 silly addNameRange     '2.2.10',
+354 silly addNameRange     '2.2.11',
+354 silly addNameRange     '2.2.12',
+354 silly addNameRange     '2.2.13',
+354 silly addNameRange     '2.2.14',
+354 silly addNameRange     '2.2.15',
+354 silly addNameRange     '2.2.16',
+354 silly addNameRange     '2.2.17',
+354 silly addNameRange     '2.2.18',
+354 silly addNameRange     '2.2.19',
+354 silly addNameRange     '2.2.20',
+354 silly addNameRange     '3.0.0',
+354 silly addNameRange     '3.0.1',
+354 silly addNameRange     '3.0.2',
+354 silly addNameRange     '3.0.3',
+354 silly addNameRange     '3.0.4' ] ]
+355 verbose addNamed [ 'gulp-util', '3.0.4' ]
+356 verbose addNamed [ '3.0.4', '3.0.4' ]
+357 silly lockFile 3c9f70bb-gulp-util-3-0-4 gulp-util@3.0.4
+358 verbose lock gulp-util@3.0.4 /Users/MackenzieDavidson/.npm/3c9f70bb-gulp-util-3-0-4.lock
+359 silly addNameRange number 2 { name: 'tildify', range: '>=1.0.0-0 <2.0.0-0', hasData: true }
+360 silly addNameRange versions [ 'tildify', [ '0.1.0', '0.2.0', '1.0.0' ] ]
+361 verbose addNamed [ 'tildify', '1.0.0' ]
+362 verbose addNamed [ '1.0.0', '1.0.0' ]
+363 silly lockFile b3ebd940-tildify-1-0-0 tildify@1.0.0
+364 verbose lock tildify@1.0.0 /Users/MackenzieDavidson/.npm/b3ebd940-tildify-1-0-0.lock
+365 verbose true,/Users/MackenzieDavidson/node_modules,/Users/MackenzieDavidson/node_modules unbuild gulp@3.8.11
+366 verbose /Users/MackenzieDavidson/node_modules/.bin,[object Object] binRoot
+367 silly addNameRange number 2 { name: 'archy', range: '>=1.0.0-0 <2.0.0-0', hasData: true }
+368 silly addNameRange versions [ 'archy', [ '0.0.0', '0.0.1', '0.0.2', '1.0.0' ] ]
+369 verbose addNamed [ 'archy', '1.0.0' ]
+370 verbose addNamed [ '1.0.0', '1.0.0' ]
+371 silly lockFile 21c4cc2a-archy-1-0-0 archy@1.0.0
+372 verbose lock archy@1.0.0 /Users/MackenzieDavidson/.npm/21c4cc2a-archy-1-0-0.lock
+373 info postuninstall gulp@3.8.11
+374 http 304 https://registry.npmjs.org/vinyl-fs
+375 silly registry.get cb [ 304,
+375 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:11 GMT',
+375 silly registry.get     server: 'Apache',
+375 silly registry.get     via: '1.1 varnish',
+375 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:07:11 GMT',
+375 silly registry.get     'cache-control': 'max-age=60',
+375 silly registry.get     etag: '"19EUREM5ORB2L4UTLSKIWFOYW"',
+375 silly registry.get     age: '59',
+375 silly registry.get     'x-served-by': 'cache-atl6225-ATL',
+375 silly registry.get     'x-cache': 'HIT',
+375 silly registry.get     'x-cache-hits': '1',
+375 silly registry.get     'x-timer': 'S1429589231.000299,VS0,VE1',
+375 silly registry.get     vary: 'Accept',
+375 silly registry.get     'content-length': '0',
+375 silly registry.get     'keep-alive': 'timeout=10, max=48',
+375 silly registry.get     connection: 'Keep-Alive' } ]
+376 verbose etag vinyl-fs from cache
+377 http 304 https://registry.npmjs.org/semver
+378 silly registry.get cb [ 304,
+378 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:11 GMT',
+378 silly registry.get     server: 'Apache',
+378 silly registry.get     via: '1.1 varnish',
+378 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:07:11 GMT',
+378 silly registry.get     'cache-control': 'max-age=60',
+378 silly registry.get     etag: '"125FZXTOFC7EY5JKNK4W7EVEO"',
+378 silly registry.get     age: '38',
+378 silly registry.get     'x-served-by': 'cache-atl6230-ATL',
+378 silly registry.get     'x-cache': 'HIT',
+378 silly registry.get     'x-cache-hits': '1',
+378 silly registry.get     'x-timer': 'S1429589231.019692,VS0,VE1',
+378 silly registry.get     vary: 'Accept',
+378 silly registry.get     'content-length': '0',
+378 silly registry.get     'keep-alive': 'timeout=10, max=48',
+378 silly registry.get     connection: 'Keep-Alive' } ]
+379 verbose etag semver from cache
+380 http 304 https://registry.npmjs.org/interpret
+381 silly registry.get cb [ 304,
+381 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:10 GMT',
+381 silly registry.get     server: 'Apache',
+381 silly registry.get     via: '1.1 varnish',
+381 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:07:11 GMT',
+381 silly registry.get     'cache-control': 'max-age=60',
+381 silly registry.get     etag: '"O3N6N2PE0PC93GBDQJUPRHGX"',
+381 silly registry.get     age: '0',
+381 silly registry.get     'x-served-by': 'cache-atl6235-ATL',
+381 silly registry.get     'x-cache': 'HIT',
+381 silly registry.get     'x-cache-hits': '1',
+381 silly registry.get     'x-timer': 'S1429589230.926781,VS0,VE112',
+381 silly registry.get     vary: 'Accept',
+381 silly registry.get     'content-length': '0',
+381 silly registry.get     'keep-alive': 'timeout=10, max=49',
+381 silly registry.get     connection: 'Keep-Alive' } ]
+382 verbose etag interpret from cache
+383 http 304 https://registry.npmjs.org/v8flags
+384 silly registry.get cb [ 304,
+384 silly registry.get   { date: 'Tue, 21 Apr 2015 04:07:11 GMT',
+384 silly registry.get     server: 'Apache',
+384 silly registry.get     via: '1.1 varnish',
+384 silly registry.get     'last-modified': 'Tue, 21 Apr 2015 04:07:11 GMT',
+384 silly registry.get     'cache-control': 'max-age=60',
+384 silly registry.get     etag: '"7N3YCPQA53BYWR2XC8CRO3PKV"',
+384 silly registry.get     age: '0',
+384 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+384 silly registry.get     'x-cache': 'HIT',
+384 silly registry.get     'x-cache-hits': '1',
+384 silly registry.get     'x-timer': 'S1429589231.021923,VS0,VE27',
+384 silly registry.get     vary: 'Accept',
+384 silly registry.get     'content-length': '0',
+384 silly registry.get     'keep-alive': 'timeout=10, max=47',
+384 silly registry.get     connection: 'Keep-Alive' } ]
+385 verbose etag v8flags from cache
+386 silly lockFile 3c9f70bb-gulp-util-3-0-4 gulp-util@3.0.4
+387 silly lockFile 3c9f70bb-gulp-util-3-0-4 gulp-util@3.0.4
+388 silly lockFile f7e8656f-pretty-hrtime-0-2-2 pretty-hrtime@0.2.2
+389 silly lockFile f7e8656f-pretty-hrtime-0-2-2 pretty-hrtime@0.2.2
+390 silly lockFile 990cd2ee-orchestrator-0-3-7 orchestrator@0.3.7
+391 silly lockFile 990cd2ee-orchestrator-0-3-7 orchestrator@0.3.7
+392 silly lockFile 62356035-liftoff-2-0-3 liftoff@2.0.3
+393 silly lockFile 62356035-liftoff-2-0-3 liftoff@2.0.3
+394 silly lockFile dfa9a863-gulp-util-3-0-0 gulp-util@^3.0.0
+395 silly lockFile dfa9a863-gulp-util-3-0-0 gulp-util@^3.0.0
+396 silly lockFile 3ac7556f-pretty-hrtime-0-2-0 pretty-hrtime@^0.2.0
+397 silly lockFile 3ac7556f-pretty-hrtime-0-2-0 pretty-hrtime@^0.2.0
+398 silly lockFile 74d9c599-orchestrator-0-3-0 orchestrator@^0.3.0
+399 silly lockFile 74d9c599-orchestrator-0-3-0 orchestrator@^0.3.0
+400 silly lockFile b7163fe4-liftoff-2-0-1 liftoff@^2.0.1
+401 silly lockFile b7163fe4-liftoff-2-0-1 liftoff@^2.0.1
+402 silly lockFile b3ebd940-tildify-1-0-0 tildify@1.0.0
+403 silly lockFile b3ebd940-tildify-1-0-0 tildify@1.0.0
+404 silly lockFile b323af2b-tildify-1-0-0 tildify@^1.0.0
+405 silly lockFile b323af2b-tildify-1-0-0 tildify@^1.0.0
+406 silly lockFile 21c4cc2a-archy-1-0-0 archy@1.0.0
+407 silly lockFile 21c4cc2a-archy-1-0-0 archy@1.0.0
+408 silly addNameRange number 2 { name: 'vinyl-fs', range: '>=0.3.0-0 <0.4.0-0', hasData: true }
+409 silly addNameRange versions [ 'vinyl-fs',
+409 silly addNameRange   [ '0.0.1',
+409 silly addNameRange     '0.0.2',
+409 silly addNameRange     '0.1.0',
+409 silly addNameRange     '0.1.1',
+409 silly addNameRange     '0.1.2',
+409 silly addNameRange     '0.1.3',
+409 silly addNameRange     '0.1.4',
+409 silly addNameRange     '0.2.0',
+409 silly addNameRange     '0.2.1',
+409 silly addNameRange     '0.3.0',
+409 silly addNameRange     '0.3.1',
+409 silly addNameRange     '0.3.2',
+409 silly addNameRange     '0.3.3',
+409 silly addNameRange     '0.3.4',
+409 silly addNameRange     '0.3.5',
+409 silly addNameRange     '0.3.6',
+409 silly addNameRange     '0.3.7',
+409 silly addNameRange     '0.3.8',
+409 silly addNameRange     '0.3.9',
+409 silly addNameRange     '0.3.10',
+409 silly addNameRange     '0.3.11',
+409 silly addNameRange     '0.3.12',
+409 silly addNameRange     '0.3.13',
+409 silly addNameRange     '1.0.0' ] ]
+410 verbose addNamed [ 'vinyl-fs', '0.3.13' ]
+411 verbose addNamed [ '0.3.13', '0.3.13' ]
+412 silly lockFile c81503f3-vinyl-fs-0-3-13 vinyl-fs@0.3.13
+413 verbose lock vinyl-fs@0.3.13 /Users/MackenzieDavidson/.npm/c81503f3-vinyl-fs-0-3-13.lock
+414 silly addNameRange number 2 { name: 'interpret', range: '>=0.3.2-0 <0.4.0-0', hasData: true }
+415 silly addNameRange versions [ 'interpret',
+415 silly addNameRange   [ '0.1.0',
+415 silly addNameRange     '0.2.0',
+415 silly addNameRange     '0.3.0',
+415 silly addNameRange     '0.3.1',
+415 silly addNameRange     '0.3.2',
+415 silly addNameRange     '0.3.3',
+415 silly addNameRange     '0.3.4',
+415 silly addNameRange     '0.3.5',
+415 silly addNameRange     '0.3.6',
+415 silly addNameRange     '0.3.7',
+415 silly addNameRange     '0.3.8',
+415 silly addNameRange     '0.3.9',
+415 silly addNameRange     '0.3.10',
+415 silly addNameRange     '0.4.0',
+415 silly addNameRange     '0.4.1',
+415 silly addNameRange     '0.4.2',
+415 silly addNameRange     '0.4.3',
+415 silly addNameRange     '0.5.0',
+415 silly addNameRange     '0.5.1',
+415 silly addNameRange     '0.5.2' ] ]
+416 verbose addNamed [ 'interpret', '0.3.10' ]
+417 verbose addNamed [ '0.3.10', '0.3.10' ]
+418 silly lockFile 06319a3e-interpret-0-3-10 interpret@0.3.10
+419 verbose lock interpret@0.3.10 /Users/MackenzieDavidson/.npm/06319a3e-interpret-0-3-10.lock
+420 silly addNameRange number 2 { name: 'semver', range: '>=4.1.0-0 <5.0.0-0', hasData: true }
+421 silly addNameRange versions [ 'semver',
+421 silly addNameRange   [ '1.0.0',
+421 silly addNameRange     '1.0.1',
+421 silly addNameRange     '1.0.2',
+421 silly addNameRange     '1.0.3',
+421 silly addNameRange     '1.0.4',
+421 silly addNameRange     '1.0.5',
+421 silly addNameRange     '1.0.6',
+421 silly addNameRange     '1.0.7',
+421 silly addNameRange     '1.0.8',
+421 silly addNameRange     '1.0.9',
+421 silly addNameRange     '1.0.10',
+421 silly addNameRange     '1.0.11',
+421 silly addNameRange     '1.0.12',
+421 silly addNameRange     '1.0.13',
+421 silly addNameRange     '1.0.14',
+421 silly addNameRange     '1.1.0',
+421 silly addNameRange     '1.1.1',
+421 silly addNameRange     '1.1.2',
+421 silly addNameRange     '1.1.3',
+421 silly addNameRange     '1.1.4',
+421 silly addNameRange     '2.0.0-alpha',
+421 silly addNameRange     '2.0.0-beta',
+421 silly addNameRange     '2.0.1',
+421 silly addNameRange     '2.0.2',
+421 silly addNameRange     '2.0.3',
+421 silly addNameRange     '2.0.4',
+421 silly addNameRange     '2.0.5',
+421 silly addNameRange     '2.0.6',
+421 silly addNameRange     '2.0.7',
+421 silly addNameRange     '2.0.8',
+421 silly addNameRange     '2.0.9',
+421 silly addNameRange     '2.0.10',
+421 silly addNameRange     '2.0.11',
+421 silly addNameRange     '2.1.0',
+421 silly addNameRange     '2.2.0',
+421 silly addNameRange     '2.2.1',
+421 silly addNameRange     '2.3.0',
+421 silly addNameRange     '2.3.1',
+421 silly addNameRange     '2.3.2',
+421 silly addNameRange     '3.0.0',
+421 silly addNameRange     '3.0.1',
+421 silly addNameRange     '4.0.0',
+421 silly addNameRange     '4.0.2',
+421 silly addNameRange     '4.0.3',
+421 silly addNameRange     '4.1.0',
+421 silly addNameRange     '4.1.1',
+421 silly addNameRange     '4.2.0',
+421 silly addNameRange     '4.2.1',
+421 silly addNameRange     '4.2.2',
+421 silly addNameRange     '4.3.0',
+421 silly addNameRange     '4.3.1',
+421 silly addNameRange     '4.3.2',
+421 silly addNameRange     '4.3.3' ] ]
+422 verbose addNamed [ 'semver', '4.3.3' ]
+423 verbose addNamed [ '4.3.3', '4.3.3' ]
+424 silly lockFile 593e89d7-semver-4-3-3 semver@4.3.3
+425 verbose lock semver@4.3.3 /Users/MackenzieDavidson/.npm/593e89d7-semver-4-3-3.lock
+426 silly lockFile 91d41a90-archy-1-0-0 archy@^1.0.0
+427 silly lockFile 91d41a90-archy-1-0-0 archy@^1.0.0
+428 silly addNameRange number 2 { name: 'v8flags', range: '>=2.0.2-0 <3.0.0-0', hasData: true }
+429 silly addNameRange versions [ 'v8flags',
+429 silly addNameRange   [ '0.1.0',
+429 silly addNameRange     '0.2.0',
+429 silly addNameRange     '0.3.0',
+429 silly addNameRange     '1.0.0',
+429 silly addNameRange     '1.0.1',
+429 silly addNameRange     '1.0.2',
+429 silly addNameRange     '1.0.3',
+429 silly addNameRange     '1.0.4',
+429 silly addNameRange     '1.0.5',
+429 silly addNameRange     '1.0.6',
+429 silly addNameRange     '1.0.7',
+429 silly addNameRange     '1.0.8',
+429 silly addNameRange     '2.0.0',
+429 silly addNameRange     '2.0.2',
+429 silly addNameRange     '2.0.3',
+429 silly addNameRange     '2.0.4',
+429 silly addNameRange     '2.0.5' ] ]
+430 verbose addNamed [ 'v8flags', '2.0.5' ]
+431 verbose addNamed [ '2.0.5', '2.0.5' ]
+432 silly lockFile 8a6a8c7b-v8flags-2-0-5 v8flags@2.0.5
+433 verbose lock v8flags@2.0.5 /Users/MackenzieDavidson/.npm/8a6a8c7b-v8flags-2-0-5.lock
+434 error Error: EACCES, open '/Users/MackenzieDavidson/.npm/chalk/0.5.1/package/package.json'
+434 error  { [Error: EACCES, open '/Users/MackenzieDavidson/.npm/chalk/0.5.1/package/package.json']
+434 error   errno: 3,
+434 error   code: 'EACCES',
+434 error   path: '/Users/MackenzieDavidson/.npm/chalk/0.5.1/package/package.json',
+434 error   parent: 'gulp' }
+435 error Please try running this command again as root/Administrator.
+436 error System Darwin 14.3.0
+437 error command "node" "/usr/local/bin/npm" "install" "gulp" "--save-dev"
+438 error cwd /Users/MackenzieDavidson/XXX/Work/Fifty6/Dev Environment
+439 error node -v v0.10.28
+440 error npm -v 1.4.13
+441 error path /Users/MackenzieDavidson/.npm/chalk/0.5.1/package/package.json
+442 error code EACCES
+443 error errno 3
+444 error stack Error: EACCES, open '/Users/MackenzieDavidson/.npm/chalk/0.5.1/package/package.json'
+445 verbose exit [ 3, true ]
