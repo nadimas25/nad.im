@@ -1,0 +1,17 @@
+/* line 1, ../sass/56.scss */
+* { margin: 0; padding: 0; }
+
+/* line 6, ../sass/56.scss */
+html, body { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* line 34, ../sass/56.scss */
+a { text-decoration: none; color: inherit; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; }
+
+/* line 42, ../sass/56.scss */
+.no-js #loader { display: none; }
+
+/* line 43, ../sass/56.scss */
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+
+/* line 44, ../sass/56.scss */
+.se-pre-con { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9999; background: url(../../assets/waiting.gif) center repeat #ffffff; }
