@@ -61,7 +61,7 @@ $type-1: 'sectra', sectra, serif;
 // $type-2: 'pressura-mono', pressura-mono, Andale-Mono, AndaleMono, monospace;
 // $type-4: 'authentic', sans-serif;
 
-$type-size-1: 2em;
+$type-size-1: 0.8em;
 $line-height-1: 1.2em;
 
 .t1
@@ -102,7 +102,13 @@ canvas
 .everything
 {
     //top bottom right left
-    padding: 15em 1em 1em 28em;
+    left: 0;
+    line-height: 0.8em;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
 }
 
 .no-js #loader { display: none;  }
@@ -120,20 +126,20 @@ canvas
 
 .spin {
     -webkit-animation-name: spin;
-    -webkit-animation-duration: 20000ms;
+    -webkit-animation-duration: 25000ms;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-name: spin;
-    -moz-animation-duration: 20000ms;
+    -moz-animation-duration: 25000ms;
     -moz-animation-iteration-count: infinite;
     -moz-animation-timing-function: linear;
     -ms-animation-name: spin;
-    -ms-animation-duration: 20000ms;
+    -ms-animation-duration: 25000ms;
     -ms-animation-iteration-count: infinite;
     -ms-animation-timing-function: linear;
 
     animation-name: spin;
-    animation-duration: 20000ms;
+    animation-duration: 25000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
