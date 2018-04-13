@@ -12,25 +12,56 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script>
                 $(window).load(function() {
-                $(".se-pre-con").fadeOut("slow");;
+                $(".load").fadeOut(1200);
             });
         </script>
 
     </head>
     <body>
-        <div class="se-pre-con"></div>
-        <div class="everything">
-            <div class="t1">
-                <div class="spin">
-                Hello, this is my website.<br>
-                I am 24 years old and live in Montreal.
-                <br>
-                <br>
-                Projects i am involved in
-                <br/>
-                Centerfold Gallery <a href="www.centerfold.gallery" target="blank">
-            </div>
+        <div class="load"></div>
+        <div class="spin">
+            <div class="center">
+                <div class="t1">
+                    <div class="home-text">
+                        Hello, this is my website.<br>
+                        I am 24 years old and live in Montreal.
+                        <br/>
+                        <br/>
+                    </div>
+                </div>
+                <div class="projects t2">
+                    Projects:
+                    <br/>
+                    <br/>
+                    Work
+                    <!-- this should drop down to work stuff a la CF FAQ -->
+                    <br/>
+                    <a class="t2-link" href="https://centerfold.gallery" target="_blank">Centerfold Gallery</a> &mdash; Junior Dev
+                    <br/>
+                    <br/>
+                    <a class="t2-link" href="http://nuagestays.com" target="_blank">Nuage Stays</a>&mdash; Operations Manager
+                    <br/>
+                    <br/>
+                    A White Cube
+                    <br/>
+                    Photography
+                    <br/>
+                </div>
             </div>
         </div>
+        <script>
+            $(function()
+            {
+                $('.projects').hover(function()
+                {
+                    $('.spin').css('-webkit-animation-play-state', 'paused');
+                },
+                function()
+                {
+                $('.spin').css('-webkit-animation-play-state', 'running');
+                });
+            });
+        </script>
+
     </body>
 </html>

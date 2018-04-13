@@ -30,6 +30,12 @@ body
     src: url(../../fonts/GT-Sectra-Fine-Trial-Medium.otf) format('opentype');
 }
 
+@font-face
+{
+    font-family: authentic;
+    src: url(../../fonts/AUTHENTIC-Sans.woff) format('woff');
+}
+
 @mixin boxflex
 {
     display: -webkit-box;
@@ -56,13 +62,15 @@ $background-color: #f5f5f5;
 
 $color-1: #000;
 $color-2: #f5f5f5;
+$color-3: #4a25de;
 
 $type-1: 'sectra', sectra, serif;
-// $type-2: 'pressura-mono', pressura-mono, Andale-Mono, AndaleMono, monospace;
-// $type-4: 'authentic', sans-serif;
+$type-2: 'authentic', sans-serif;
 
-$type-size-1: 0.8em;
+$type-size-1: 3em;
 $line-height-1: 1.2em;
+$type-size-2: 1em;
+$line-height-2: 1em;
 
 .t1
 {
@@ -74,6 +82,18 @@ $line-height-1: 1.2em;
 {
     font-family: $type-1;
     border-bottom: 0.5px solid $color-1;
+}
+
+.t2
+{
+    font-family: $type-2;
+    font-size: $type-size-2;
+}
+
+.t2-link
+{
+    font-family: $type-2;
+    border-bottom: 5px solid $color-3;
 }
 
 a {
@@ -92,28 +112,30 @@ body
     overflow: hidden;
 }
 
-canvas
+.center
 {
-    position: fixed;
-    width: 100%;
-    height: 100%;
+  height: 100%;
+  width: 100%;
+  @include boxflex;
 }
 
-.everything
+.home-text
 {
-    //top bottom right left
-    left: 0;
-    line-height: 0.8em;
-    margin: auto;
-    margin-top: -100px;
-    position: absolute;
-    top: 50%;
-    width: 100%;
+    line-height: 1em;
+    width: 750px;
+    text-align: center;
+}
+
+.projects
+{
+    transform: translateY(10em) translateX(-15em) rotateZ(-90deg);
+    text-align: left;
+
 }
 
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con
+.load
 {
 	position: fixed;
 	left: 0px;
@@ -121,10 +143,12 @@ canvas
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(../../assets/waiting.gif) center repeat #ffffff;
+	background: url(../../assets/nadim-loading.gif) center repeat #ffffff;
+    background-size: auto 50%;
 }
 
-.spin {
+.spin
+{
     -webkit-animation-name: spin;
     -webkit-animation-duration: 25000ms;
     -webkit-animation-iteration-count: infinite;
@@ -143,6 +167,15 @@ canvas
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
+
+.spin .center .t1 .projects:hover
+{
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
 @-ms-keyframes spin {
     from { -ms-transform: rotate(0deg); }
     to { -ms-transform: rotate(360deg); }

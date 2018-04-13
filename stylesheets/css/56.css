@@ -12,35 +12,48 @@ html, body { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit
 
 /* ::-webkit-scrollbar { display: none; } */
 @font-face { font-family: sectra; src: url(../../fonts/GT-Sectra-Fine-Trial-Medium.otf) format("opentype"); }
-/* line 67, ../sass/56.scss */
-.t1 { font-family: "sectra", sectra, serif; font-size: 0.8em; }
+@font-face { font-family: authentic; src: url(../../fonts/AUTHENTIC-Sans.woff) format("woff"); }
+/* line 75, ../sass/56.scss */
+.t1 { font-family: "sectra", sectra, serif; font-size: 3em; }
 
-/* line 73, ../sass/56.scss */
+/* line 81, ../sass/56.scss */
 .t1-link { font-family: "sectra", sectra, serif; border-bottom: 0.5px solid #000; }
 
-/* line 79, ../sass/56.scss */
+/* line 87, ../sass/56.scss */
+.t2 { font-family: "authentic", sans-serif; font-size: 1em; }
+
+/* line 93, ../sass/56.scss */
+.t2-link { font-family: "authentic", sans-serif; border-bottom: 5px solid #4a25de; }
+
+/* line 99, ../sass/56.scss */
 a { text-decoration: none; color: inherit; -webkit-transition: .3s; -moz-transition: .3s; transition: .3s; cursor: crosshair; }
 
-/* line 88, ../sass/56.scss */
+/* line 108, ../sass/56.scss */
 body { background-color: #f5f5f5; margin: 0; overflow: hidden; }
 
-/* line 95, ../sass/56.scss */
-canvas { position: fixed; width: 100%; height: 100%; }
+/* line 115, ../sass/56.scss */
+.center { height: 100%; width: 100%; display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; -webkit-box-pack: center; -moz-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-flex-direction: column; flex-direction: column; }
 
-/* line 102, ../sass/56.scss */
-.everything { left: 0; line-height: 0.8em; margin: auto; margin-top: -100px; position: absolute; top: 50%; width: 100%; }
+/* line 122, ../sass/56.scss */
+.home-text { line-height: 1em; width: 750px; text-align: center; }
 
-/* line 114, ../sass/56.scss */
+/* line 129, ../sass/56.scss */
+.projects { transform: translateY(10em) translateX(-15em) rotateZ(-90deg); text-align: left; }
+
+/* line 136, ../sass/56.scss */
 .no-js #loader { display: none; }
 
-/* line 115, ../sass/56.scss */
+/* line 137, ../sass/56.scss */
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 
-/* line 116, ../sass/56.scss */
-.se-pre-con { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9999; background: url(../../assets/waiting.gif) center repeat #ffffff; }
+/* line 138, ../sass/56.scss */
+.load { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9999; background: url(../../assets/nadim-loading.gif) center repeat #ffffff; background-size: auto 50%; }
 
-/* line 127, ../sass/56.scss */
+/* line 150, ../sass/56.scss */
 .spin { -webkit-animation-name: spin; -webkit-animation-duration: 25000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear; -moz-animation-name: spin; -moz-animation-duration: 25000ms; -moz-animation-iteration-count: infinite; -moz-animation-timing-function: linear; -ms-animation-name: spin; -ms-animation-duration: 25000ms; -ms-animation-iteration-count: infinite; -ms-animation-timing-function: linear; animation-name: spin; animation-duration: 25000ms; animation-iteration-count: infinite; animation-timing-function: linear; }
+
+/* line 171, ../sass/56.scss */
+.spin .center .t1 .projects:hover { -webkit-animation-play-state: paused; -moz-animation-play-state: paused; -o-animation-play-state: paused; animation-play-state: paused; }
 
 @-ms-keyframes spin { from { -ms-transform: rotate(0deg); }
   to { -ms-transform: rotate(360deg); } }
